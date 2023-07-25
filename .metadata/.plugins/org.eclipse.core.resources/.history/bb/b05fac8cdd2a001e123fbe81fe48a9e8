@@ -1,0 +1,7 @@
+package com.Referece;
+
+public class B {
+
+	private int z;
+	
+}
