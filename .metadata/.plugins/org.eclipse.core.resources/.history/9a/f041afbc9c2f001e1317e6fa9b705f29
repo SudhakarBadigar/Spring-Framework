@@ -1,0 +1,5 @@
+package com.beanLifeCycle.SpringInterface;
+
+public class FoodKing {
+
+}

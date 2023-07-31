@@ -1,0 +1,26 @@
+package com.beanLifeCycle.SpringInterface;
+
+public class FoodKing {
+	private String dish;
+	private double cost;
+	
+	public String getDish() {
+		System.out.println("getdish");
+		return dish;
+	}
+	public void setDish(String dish) {
+		this.dish = dish;
+		System.out.println("setdish");
+	}
+	public double getCost() {
+		return cost;
+	}
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+	@Override
+	public String toString() {
+		return "FoodKing [dish=" + dish + ", cost=" + cost + "]";
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.beanLifeCycle.annotation;
+
+public class Dao {
+
+}

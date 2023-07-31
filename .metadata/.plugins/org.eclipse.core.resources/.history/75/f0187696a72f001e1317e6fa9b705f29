@@ -1,0 +1,29 @@
+package com.beanLifeCycle.annotation;
+
+public class Dominos {
+ 
+	private String pizza;
+	private double cost;
+	
+	public String getPizza() {
+		return pizza;
+	}
+	public void setPizza(String pizza) {
+		this.pizza = pizza;
+	}
+	public double getCost() {
+		return cost;
+	}
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+	@Override
+	public String toString() {
+		return "Dominos [pizza=" + pizza + ", cost=" + cost + "]";
+	}
+	
+    
+	
+	
+	
+}
