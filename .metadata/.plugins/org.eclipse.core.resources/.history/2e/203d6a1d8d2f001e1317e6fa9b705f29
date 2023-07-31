@@ -1,0 +1,14 @@
+package com.beansLifeCycle;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class CourseDao {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/beansLifeCycle/Config.xml");
+		Course e = context.getBean("course1" ,Course.class);
+		System.out.println(e);
+		
+	}
+
+}

@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class DaoApp {
 	public static void main(String[] args) {
+		
 		System.out.println("start");
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/Referece/ConfigRef.xml");
            A a = context.getBean("refA",A.class);
@@ -13,6 +14,7 @@ public class DaoApp {
            B b = (B)context.getBean("refB");
            System.out.println(b);
            System.out.println("end");
+           
 	}
 
 }
