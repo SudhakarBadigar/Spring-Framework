@@ -1,0 +1,27 @@
+package com.autowiring;
+
+public class Certificate {
+	private String certi;
+
+	public String getCerti() {
+		return certi;
+	}
+
+	public void setCerti(String certi) {
+		this.certi = certi;
+	}
+
+	public Certificate() {
+
+	}
+
+	@Override
+	public String toString() {
+		return "Certificate [certi=" + certi + "]";
+	}
+	
+	
+	
+	
+
+}

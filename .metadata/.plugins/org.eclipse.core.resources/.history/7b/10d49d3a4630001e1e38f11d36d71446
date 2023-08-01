@@ -1,0 +1,36 @@
+package com.autowiring;
+
+public class Certificate {
+	private Student stud1;
+
+	public Certificate(Student stud) {
+		this.stud = stud;
+	}
+
+	public Certificate() {
+
+	}
+
+	public Student getStud() {
+		return stud;
+	}
+
+	public void setStud(Student stud) {
+		this.stud = stud;
+		System.out.println("setter and getters in certificate class");
+	}
+
+	@Override
+	public String toString() {
+		return "Certificate [stud=" + stud + "]";
+	}
+	
+	
+	
+	
+
+	
+	
+	
+
+}
