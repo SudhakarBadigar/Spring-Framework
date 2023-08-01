@@ -1,0 +1,34 @@
+package com.autowire.annotation;
+
+public class Mobile {
+
+	private Apps app;
+
+	public Mobile() {
+		System.out.println("no-arg constructor of Mobile");
+	}
+
+	public Mobile(Apps app) {
+		this.app = app;
+		System.out.println("arg-cons of Mobile");
+	}
+
+	@Override
+	public String toString() {
+		return "Mobile [app=" + app + "]";
+	}
+
+	public Apps getApp() {
+		return app;
+	}
+
+	public void setApp(Apps app) {
+		this.app = app;
+		System.out.println("setters of Mobile");
+	}
+	
+	
+	
+	
+	
+}

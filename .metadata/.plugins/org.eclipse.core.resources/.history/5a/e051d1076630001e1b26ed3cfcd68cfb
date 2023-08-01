@@ -1,0 +1,33 @@
+package com.autowire.annotation;
+
+public class Mobile {
+
+	private Apps app;
+
+	public Mobile() {
+		super();
+	}
+
+	public Mobile(Apps app) {
+		this.app = app;
+	}
+
+	@Override
+	public String toString() {
+		return "Mobile [app=" + app + "]";
+	}
+
+	public Apps getApp() {
+		return app;
+	}
+
+	public void setApp(Apps app) {
+		this.app = app;
+		System.out.println("setters of Mobile");
+	}
+	
+	
+	
+	
+	
+}

@@ -16,7 +16,7 @@
 
 <bean class="com.autowiring.constructor.Company" name="comp" p:eid="101" p:ename="Rama" p:esal="25000.50"/>
 
-<bean class="com.autowiring.constructor.Employee" name="emp" autowire="constructor" />    
+<bean class="com.autowiring.constructor.Employee" name="emp" autowire="constructor" />     
     
     
     </beans>
