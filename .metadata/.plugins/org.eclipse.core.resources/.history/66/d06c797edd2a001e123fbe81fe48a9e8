@@ -1,7 +1,0 @@
-package com.Referece;
-
-public class A {
-	private int y;
-	private B b;
-
-}
