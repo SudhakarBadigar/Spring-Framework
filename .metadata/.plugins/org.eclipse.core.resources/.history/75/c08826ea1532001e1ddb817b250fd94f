@@ -32,8 +32,6 @@ public class Dao {
 		System.out.println(e2.getEmail());
 		System.out.println(e2.getEmail().getClass().getName());
 		System.out.println("..................");
-		System.out.println(e2.getDbprop());
-		System.out.println(e2.getDbprop().getClass().getName());
 		
 		System.out.println("project ended");
 	}

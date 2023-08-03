@@ -27,7 +27,6 @@
 		<bean class="com.standAloneCollection.Emp" name="emp2">
 		  	<property name="vehicle" ref="x" />
 			<property name="email" ref="y"/>
-			<property name="dbprop" ref="i"/>
 		</bean>
 		
 

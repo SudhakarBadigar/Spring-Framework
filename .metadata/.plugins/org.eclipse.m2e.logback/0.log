@@ -1387,3 +1387,12 @@
 2023-08-03 19:31:48,551 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\main\resources
 2023-08-03 19:31:48,564 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-08-03 19:31:48,565 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\test\resources
+2023-08-03 21:10:56,598 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-03 21:23:03,895 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-03 21:23:03,896 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\main\resources
+2023-08-03 21:23:03,903 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-03 21:23:03,903 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\test\resources
+2023-08-03 21:23:40,246 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-03 21:23:40,248 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\main\resources
+2023-08-03 21:23:40,267 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-03 21:23:40,268 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java Workspace\SpringWorkSpace\IocMod1\src\test\resources
