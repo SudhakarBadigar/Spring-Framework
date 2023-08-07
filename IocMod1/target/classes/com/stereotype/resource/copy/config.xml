@@ -16,7 +16,7 @@
 
 <context:component-scan base-package="com.stereotype.resource.copy"/>       
        
-       <util:list list-class="java.util.ArryList" id="temp">
+       <util:list list-class="java.util.ArrayList" id="temp">
        		<value>virat</value>
        		<value>ABD</value>
        		<value>Maxwell</value>

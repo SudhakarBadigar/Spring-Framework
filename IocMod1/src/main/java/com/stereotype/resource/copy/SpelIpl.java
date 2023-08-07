@@ -3,15 +3,17 @@ package com.stereotype.resource.copy;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("ab")
+@Scope("singleton")
 public class SpelIpl {
 	@Value("virat kohli")
 	private String teamCaptain;
 	@Value("RCB")
 	private String teamName;
-	@Value("{temp}")
+	@Value("#{temp}")
 	private List<String> players;
 
 	public SpelIpl() {

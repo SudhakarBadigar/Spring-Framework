@@ -10,6 +10,14 @@ public class SpelDao {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/stereotype/resource/copy/config.xml");
 		SpelIpl spel = context.getBean("ab",SpelIpl.class);
 		System.out.println(spel);
+		System.out.println(spel.hashCode());
+		
+		System.out.println("..............");
+		SpelIpl spel1 = context.getBean("ab",SpelIpl.class);
+		System.out.println(spel1);
+		System.out.println(spel1.hashCode());
+		
+		
 		System.out.println("project ended");
 	}
 }
