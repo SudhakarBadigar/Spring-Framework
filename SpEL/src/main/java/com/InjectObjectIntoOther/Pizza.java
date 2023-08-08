@@ -5,6 +5,7 @@ public class Pizza {
 	private Pepsi pepsi;
 	
 	void Delivery() {
+		pepsi.drink();
 		System.out.println("Deliver the pizza");
 	}
 

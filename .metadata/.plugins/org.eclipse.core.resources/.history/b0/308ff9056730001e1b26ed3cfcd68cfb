@@ -1,5 +1,0 @@
-package com.autowire.annotation;
-
-public class Dao {
-
-}
